@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Loops </title>
+
+</head>
+<body>
+<h1>Use "for" loop</h1>
+   <script>
+    function createPyramid(rows)
+    {
+        for (let i = 0; i < rows; i++) {
+            var output = '';
+            for (let j =0; j < rows - i; j++) output += ' ';
+            for (let k = 0; k <= i; k++) output += '* ';
+            console.log(output);  
+        } 
+    }
+}
+</script>
+</body>
+</html>
+
+
+
