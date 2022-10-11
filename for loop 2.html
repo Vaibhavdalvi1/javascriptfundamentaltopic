@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <h1>Star pattern coding</h1>
+
+<body>
+
+<script>
+let n = 5;
+let x = "";
+for (let i = 1; i <= n; i++) {
+  for (let j = 0; j < n - i; j++) {
+    x += " ";
+  }
+  for (let k = 0; k < i; k++) {
+    x += "*";
+  }
+  x += "\n";
+}
+console.log(x);
+</script>
+
+</body>
+</html>
